@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .result-box {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: left;
+    min-height: 100px; /* Ensures the box has a minimum height */
+    overflow-y: auto; /* Enables vertical scrolling if necessary */
+  }
+  /* ... Previous styles ... */
+
+.input-field-large {
+    width: 100%;
+    padding: 20px; /* Increase padding for larger input box */
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    min-height: 150px; /* Increase minimum height for larger input box */
+  }
+  
+  .button-container {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10px; /* Add padding above the buttons */
+  }
+  
